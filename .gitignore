@@ -1,0 +1,17 @@
+# Datos generados/pesados: no van al repo, se regeneran o se descargan aparte
+data/
+modelos/
+modelos_domibm/
+figuras_sinleak/
+*.joblib
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Ficheros de bloqueo de Word al tener el documento abierto
+~$*.docx
+
+# Config del editor / asistente, no forma parte del TFM
+.claude/

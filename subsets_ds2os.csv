@@ -1,0 +1,221 @@
+r,features,f1_macro,auc
+3,sourceID + destinationServiceType + value,0.8910587819384421,0.9859051979312206
+3,sourceID + destinationServiceType + operation,0.864514202484562,0.9671808093044326
+3,sourceID + sourceType + destinationServiceType,0.8643845616563619,0.9668303009629442
+3,sourceID + sourceAddress + destinationServiceType,0.8640280507474332,0.966788598322492
+2,sourceID + destinationServiceType,0.8640280507474332,0.966788598322492
+3,sourceID + destinationServiceType + destinationLocation,0.8640280507474332,0.966788598322492
+3,sourceID + destinationServiceType + accessedNodeType,0.8634135310440747,0.9553963125536782
+3,sourceID + destinationServiceType + accessedNodeAddress,0.8618945246473283,0.9616387259934139
+3,sourceID + destinationServiceAddress + destinationServiceType,0.8618945246473283,0.9616084617465068
+3,sourceID + sourceType + accessedNodeType,0.8554822605157483,0.9857939817288056
+3,sourceID + destinationServiceAddress + accessedNodeType,0.8550940368237552,0.9866167141014506
+3,sourceID + accessedNodeAddress + accessedNodeType,0.8550940368237552,0.9866167141014506
+3,sourceID + sourceAddress + accessedNodeType,0.8543610429535395,0.9857824442611243
+3,sourceID + destinationLocation + accessedNodeType,0.8542959109147624,0.9857697719970855
+2,sourceID + accessedNodeType,0.8542959109147624,0.985701353915726
+3,sourceID + accessedNodeType + operation,0.8535565906772185,0.9898450739099539
+3,sourceAddress + sourceType + accessedNodeType,0.8470880887633558,0.9409679234268029
+3,sourceType + destinationLocation + accessedNodeType,0.8458718744028253,0.9755196226507816
+3,sourceType + destinationServiceAddress + value,0.8407100661283119,0.966523061740493
+3,sourceType + accessedNodeAddress + value,0.8407100661283119,0.966523061740493
+3,sourceType + destinationLocation + value,0.8303800216079085,0.9626867872594067
+3,sourceID + sourceLocation + destinationServiceType,0.8194696815302607,0.9542189482414998
+3,sourceID + destinationLocation + operation,0.8129126212482773,0.9579217352149365
+3,sourceID + sourceAddress + operation,0.8051967794617774,0.9568129338957503
+3,sourceID + sourceType + operation,0.8051967794617774,0.956297421112726
+2,sourceID + operation,0.8051967794617774,0.956297421112726
+3,sourceID + destinationServiceAddress + operation,0.80498027757713,0.9575086052117063
+3,sourceID + accessedNodeAddress + operation,0.8042872642323339,0.9571353625312948
+3,sourceAddress + sourceType + value,0.7938380162283902,0.9620629167043067
+3,sourceType + accessedNodeAddress + accessedNodeType,0.783196337434852,0.931823579249356
+3,sourceType + destinationServiceAddress + accessedNodeType,0.783196337434852,0.931823579249356
+2,sourceType + accessedNodeType,0.7809464258566592,0.9372700900062048
+3,sourceType + accessedNodeType + operation,0.7809464258566592,0.9372700900062048
+3,sourceAddress + destinationServiceType + value,0.778760204855916,0.9649664777997178
+2,sourceType + operation,0.777115771060983,0.8281582395538457
+3,sourceAddress + destinationServiceType + accessedNodeType,0.7719865948595253,0.8789446728838799
+3,sourceID + sourceLocation + value,0.7511549181983885,0.9764750244899029
+3,destinationServiceType + accessedNodeAddress + accessedNodeType,0.7502278499339919,0.89878586839816
+3,destinationServiceAddress + destinationServiceType + accessedNodeType,0.7502278499339919,0.898927205136463
+3,sourceType + destinationServiceAddress + destinationServiceType,0.7447124682696447,0.9426542932798558
+3,sourceType + destinationLocation + operation,0.7392487657881941,0.9370253237935653
+3,sourceType + destinationServiceType + accessedNodeAddress,0.737577350046181,0.9418673022992206
+3,sourceID + accessedNodeType + value,0.73529800703607,0.9798451352585777
+3,sourceID + destinationLocation + value,0.7302931377388507,0.9677320662907837
+3,sourceID + sourceType + value,0.7267159942698711,0.9722987368122459
+3,sourceAddress + destinationServiceAddress + destinationServiceType,0.7222165558236563,0.9253722502942614
+3,sourceAddress + destinationServiceType + accessedNodeAddress,0.7218931360998835,0.9252281773268958
+3,sourceType + accessedNodeAddress + operation,0.717544754247095,0.9301549683546657
+3,sourceType + destinationServiceAddress + operation,0.717544754247095,0.9301549683546657
+3,sourceID + accessedNodeAddress + value,0.70881703075909,0.9670678006999983
+3,sourceID + destinationServiceAddress + value,0.70881703075909,0.9670722787643722
+3,destinationServiceAddress + destinationServiceType + value,0.7002580110225969,0.9457135544978723
+3,sourceID + sourceAddress + value,0.7000106983076659,0.9771225860867535
+3,sourceID + sourceLocation + accessedNodeType,0.699057196869991,0.9727812462285582
+3,sourceID + operation + value,0.6987057258168872,0.978103571434225
+3,sourceAddress + sourceType + operation,0.6983275212472217,0.9200359144961929
+3,destinationServiceType + accessedNodeAddress + value,0.6972312678139068,0.9484274590192809
+2,sourceID + value,0.6929818862322916,0.9770513035865651
+3,sourceType + sourceLocation + value,0.6889233817177354,0.952949511779724
+3,sourceID + sourceLocation + operation,0.6881602499640592,0.952324118078226
+3,sourceID + destinationServiceAddress + destinationLocation,0.6856831488305803,0.9405762814614118
+3,sourceID + destinationLocation + accessedNodeAddress,0.6851144527246233,0.940407484145795
+3,destinationServiceAddress + destinationServiceType + operation,0.6749136817452671,0.9092782196077677
+3,destinationServiceType + accessedNodeAddress + operation,0.6748945883571176,0.9092647350601766
+3,sourceID + sourceLocation + destinationLocation,0.6663128963444643,0.9387912940702009
+3,sourceID + sourceLocation + destinationServiceAddress,0.6651768770239787,0.9432243201629473
+3,sourceID + sourceLocation + accessedNodeAddress,0.6651768770239787,0.9437314340545395
+3,sourceLocation + destinationServiceType + value,0.6625369950481209,0.945819962814588
+3,destinationServiceAddress + destinationServiceType + accessedNodeAddress,0.6586270377741649,0.8957581234265092
+2,destinationServiceType + accessedNodeAddress,0.6586270377741649,0.8957581234265092
+2,destinationServiceAddress + destinationServiceType,0.658577894251035,0.8910398863650766
+3,sourceAddress + destinationServiceAddress + destinationLocation,0.6578314550101352,0.9167814525700646
+3,sourceAddress + destinationLocation + accessedNodeAddress,0.6578314550101352,0.9167814525700646
+2,sourceID + destinationLocation,0.655827018382478,0.9351786741652554
+3,sourceID + sourceType + destinationLocation,0.655827018382478,0.9351786741652554
+3,sourceType + sourceLocation + destinationServiceType,0.6554488472782921,0.9398244590730187
+3,destinationServiceAddress + accessedNodeType + value,0.650917690893065,0.9377834907868119
+3,accessedNodeAddress + accessedNodeType + value,0.650917690893065,0.9377834907868119
+3,destinationServiceAddress + destinationLocation + operation,0.6493640100710805,0.8886220748316213
+3,destinationLocation + accessedNodeAddress + operation,0.6493419968450007,0.8886198165507425
+3,sourceID + sourceType + sourceLocation,0.6449436828750255,0.9325071105485776
+3,sourceID + sourceAddress + sourceLocation,0.6446452528032349,0.9386121633014213
+3,sourceAddress + destinationLocation + accessedNodeType,0.641841390369465,0.892945599311869
+3,sourceAddress + sourceLocation + destinationServiceAddress,0.641349935424111,0.9210077194048985
+3,sourceAddress + sourceLocation + accessedNodeAddress,0.641349935424111,0.9210077194048985
+3,destinationServiceType + destinationLocation + accessedNodeType,0.6411608066813871,0.9194484869920844
+2,sourceID + sourceLocation,0.6392598310269906,0.9391760991467981
+3,sourceAddress + sourceType + destinationLocation,0.636391038733182,0.9186882629580152
+3,destinationLocation + accessedNodeAddress + accessedNodeType,0.6361412101948098,0.881705738300513
+3,destinationServiceAddress + destinationLocation + accessedNodeType,0.6361412101948098,0.881705738300513
+3,destinationLocation + accessedNodeAddress + value,0.6334659626657205,0.930528395142335
+2,destinationServiceAddress + value,0.6334659626657205,0.9298123127192757
+2,accessedNodeAddress + value,0.6334659626657205,0.9299374644714632
+3,destinationServiceAddress + destinationLocation + value,0.6334659626657205,0.9304045781977971
+3,destinationServiceAddress + accessedNodeAddress + value,0.6334659626657205,0.9299374644714632
+3,sourceAddress + sourceLocation + destinationLocation,0.6268181398633182,0.9135362952288395
+3,sourceLocation + destinationLocation + value,0.624791133538702,0.9317695562950276
+2,sourceAddress + destinationLocation,0.6247388476184301,0.9066742406847474
+3,sourceAddress + accessedNodeAddress + value,0.6242912961177219,0.9331356162696516
+3,sourceAddress + destinationServiceAddress + value,0.6242912961177219,0.9331356162696516
+3,sourceAddress + accessedNodeType + value,0.6225701261408332,0.9498857597397828
+3,sourceAddress + sourceLocation + destinationServiceType,0.617340448782285,0.9263559974150374
+3,sourceLocation + destinationServiceType + accessedNodeType,0.6163542505856476,0.9297800030119558
+3,sourceLocation + destinationServiceAddress + destinationServiceType,0.6146600704219762,0.9249859708518589
+3,sourceLocation + destinationServiceType + accessedNodeAddress,0.6146600704219762,0.9252067416990147
+2,sourceLocation + destinationServiceType,0.6144534458274602,0.9238748839528809
+3,sourceType + sourceLocation + accessedNodeType,0.6141676599105734,0.9520632516525037
+3,sourceAddress + destinationLocation + value,0.6138273645160195,0.932693833260041
+3,sourceLocation + destinationServiceType + operation,0.6134689301875447,0.9234723510474507
+3,sourceLocation + destinationServiceType + destinationLocation,0.6133143804960834,0.9277206493309669
+3,destinationServiceAddress + operation + value,0.611686917108068,0.9351970710286122
+3,accessedNodeAddress + operation + value,0.611686917108068,0.9351970710286122
+2,sourceLocation + value,0.6084206514340442,0.9266381820320019
+3,destinationServiceType + accessedNodeType + value,0.6073691108990357,0.9547770931511155
+3,destinationServiceType + operation + value,0.6064835394034256,0.9548816792973387
+3,sourceType + destinationServiceType + value,0.6053450113653851,0.959955405907053
+3,sourceAddress + destinationLocation + operation,0.605071784072211,0.9030851255161954
+2,destinationServiceType + value,0.6043890137209639,0.9456777732397124
+3,destinationServiceType + destinationLocation + value,0.6037643435706185,0.9465205738064519
+3,sourceType + accessedNodeType + value,0.6035629988556463,0.9561137970047777
+3,sourceAddress + operation + value,0.6024447704564213,0.9459163282845242
+2,sourceType + value,0.5992971650132757,0.9468088473631304
+3,sourceLocation + destinationLocation + operation,0.5985922907161318,0.8941162176023866
+2,sourceLocation + destinationLocation,0.5971085186959735,0.893259488371404
+3,destinationServiceAddress + destinationLocation + accessedNodeAddress,0.5969372721997772,0.8764826798953566
+2,destinationLocation + accessedNodeAddress,0.5969372721997772,0.8764826798953566
+2,destinationServiceAddress + destinationLocation,0.5969259561220328,0.8765057141253948
+2,destinationLocation + operation,0.5952776622980471,0.8687330272934085
+2,sourceAddress + value,0.5947449065095928,0.9412283532304645
+3,sourceType + operation + value,0.5876897033937344,0.9485141263802147
+3,sourceType + sourceLocation + operation,0.5834469003606875,0.9359736463657867
+3,destinationLocation + operation + value,0.5807021062760432,0.9367226500733056
+3,sourceLocation + destinationServiceAddress + value,0.5806933809729351,0.9327300722974584
+3,sourceLocation + accessedNodeAddress + value,0.5806933809729351,0.9327300722974584
+3,sourceLocation + accessedNodeType + value,0.5806270656588467,0.9165851238478175
+3,accessedNodeAddress + accessedNodeType + operation,0.5784071147329545,0.8515403245077147
+3,destinationServiceAddress + accessedNodeType + operation,0.5784071147329545,0.8515403245077147
+3,sourceType + destinationServiceType + operation,0.5758887140119235,0.9378830750239073
+3,sourceType + destinationServiceType + destinationLocation,0.5758833952421683,0.9310807719428162
+3,destinationLocation + accessedNodeType + operation,0.574000140630029,0.8729231505226333
+2,sourceType + destinationServiceType,0.5737282435652817,0.9284528074293773
+3,sourceAddress + sourceType + destinationServiceType,0.5737282435652817,0.9303380709852529
+3,sourceLocation + operation + value,0.5735891637834483,0.9426436774434042
+3,destinationLocation + accessedNodeType + value,0.5730969917641454,0.928458116551772
+2,destinationLocation + accessedNodeType,0.5677643795531833,0.866688774220006
+2,accessedNodeAddress + accessedNodeType,0.5673553891509572,0.8420157629749132
+2,destinationServiceAddress + accessedNodeType,0.5673553891509572,0.8420157629749132
+3,destinationServiceAddress + accessedNodeAddress + accessedNodeType,0.5673553891509572,0.8420157629749132
+3,sourceID + sourceAddress + destinationServiceAddress,0.5661067837995113,0.9409941782820905
+3,sourceID + sourceAddress + accessedNodeAddress,0.5657833573360426,0.9410150582277538
+2,sourceID + destinationServiceAddress,0.5647267242477116,0.9368898666631594
+3,sourceID + sourceType + destinationServiceAddress,0.5647267242477116,0.9368898666631594
+2,sourceID + accessedNodeAddress,0.5644033291183583,0.936654903979259
+3,sourceID + sourceType + accessedNodeAddress,0.5644033291183583,0.936654903979259
+3,sourceID + destinationServiceAddress + accessedNodeAddress,0.5644033291183583,0.936654903979259
+3,sourceAddress + destinationServiceType + destinationLocation,0.5628769585176381,0.9108956974730177
+2,destinationLocation + value,0.5623911627621345,0.9203373509020205
+3,sourceLocation + destinationLocation + accessedNodeAddress,0.5590859144310203,0.8896281016939735
+3,sourceLocation + destinationServiceAddress + destinationLocation,0.5590859144310203,0.8891388877600745
+3,destinationServiceType + destinationLocation + operation,0.5557600422644382,0.8783836479972695
+3,sourceID + sourceAddress + destinationLocation,0.5542274734084448,0.937311414093067
+3,sourceAddress + sourceLocation + value,0.5539391885948983,0.9171743029047583
+3,destinationServiceType + destinationLocation + accessedNodeAddress,0.5539335812081816,0.8732723163063746
+2,destinationServiceType + destinationLocation,0.5539335812081816,0.8694678178141956
+3,destinationServiceAddress + destinationServiceType + destinationLocation,0.5539335812081816,0.8688128285810217
+2,sourceID + sourceAddress,0.5518364782213347,0.9343490738003861
+3,sourceID + sourceAddress + sourceType,0.5518364782213347,0.9343490738003861
+3,sourceAddress + accessedNodeAddress + accessedNodeType,0.5500233447164563,0.8683375801089956
+3,sourceAddress + destinationServiceAddress + accessedNodeType,0.5500110998588731,0.8683288105662635
+3,sourceType + sourceLocation + destinationLocation,0.546281003047233,0.9046829802962305
+3,sourceLocation + accessedNodeType + operation,0.5454264336454809,0.891846697332005
+2,sourceAddress + destinationServiceType,0.5428849971964332,0.9095215599010616
+2,sourceAddress + sourceType,0.5296902096878812,0.9046824139144032
+3,sourceAddress + destinationServiceType + operation,0.5296335122530993,0.9117172631937503
+3,sourceType + destinationServiceAddress + destinationLocation,0.5278777687817773,0.9150273385666363
+3,sourceType + destinationLocation + accessedNodeAddress,0.5278611635025834,0.9150156712691524
+2,sourceID + sourceType,0.5271443768055937,0.9271031146154174
+3,sourceAddress + sourceType + destinationServiceAddress,0.5259723315081777,0.9123038277747636
+3,sourceAddress + sourceType + accessedNodeAddress,0.5259559337363372,0.9133623931954341
+3,sourceLocation + destinationLocation + accessedNodeType,0.523628631314511,0.8938394298888094
+2,accessedNodeAddress + operation,0.5204796563799612,0.8339464389469733
+3,destinationServiceAddress + accessedNodeAddress + operation,0.5204796563799612,0.8339464389469733
+2,destinationServiceAddress + operation,0.5204796563799612,0.8339464389469733
+2,accessedNodeType + value,0.5201844410568724,0.8908138992438506
+3,accessedNodeType + operation + value,0.5201043745221199,0.9002118270211963
+2,sourceType + destinationServiceAddress,0.5172340225611824,0.908121050128341
+3,sourceAddress + accessedNodeType + operation,0.5164897357360833,0.8626888638892286
+2,sourceAddress + accessedNodeType,0.5164897357360833,0.8626888638892286
+2,sourceType + accessedNodeAddress,0.5160416069432843,0.9063221025882908
+3,sourceType + destinationServiceAddress + accessedNodeAddress,0.5160416069432843,0.9063221025882908
+3,sourceLocation + destinationServiceAddress + operation,0.514915935528353,0.881005078634467
+3,sourceLocation + accessedNodeAddress + operation,0.514915935528353,0.8810171636671683
+3,sourceLocation + destinationServiceAddress + accessedNodeAddress,0.514287633113734,0.878090870610824
+2,sourceLocation + destinationServiceAddress,0.514287633113734,0.8776347470857709
+2,sourceLocation + accessedNodeAddress,0.514287633113734,0.878090870610824
+2,destinationServiceAddress + accessedNodeAddress,0.5106954970444418,0.8283446764241214
+3,sourceType + sourceLocation + destinationServiceAddress,0.5087341176701602,0.9114665573100993
+3,sourceType + sourceLocation + accessedNodeAddress,0.5087341176701602,0.9119241928300946
+2,sourceLocation + accessedNodeType,0.5062773157324459,0.8729833762049356
+3,sourceType + destinationServiceType + accessedNodeType,0.506237548929383,0.9423385900212498
+2,sourceType + destinationLocation,0.504985664419251,0.9132281043520216
+3,sourceLocation + destinationServiceAddress + accessedNodeType,0.5048479499188901,0.8957430328276796
+3,sourceLocation + accessedNodeAddress + accessedNodeType,0.5048479499188901,0.8957430328276796
+2,sourceType + sourceLocation,0.5003397810040556,0.8920193198354578
+3,sourceAddress + sourceType + sourceLocation,0.4984849931867773,0.9079000299327653
+2,operation + value,0.497941040676395,0.8899386116945452
+3,sourceAddress + sourceLocation + operation,0.49038804205916026,0.878907473319565
+3,sourceAddress + sourceLocation + accessedNodeType,0.4900904016065518,0.8969764210026542
+2,sourceAddress + sourceLocation,0.4897206326478935,0.8722642171837741
+2,destinationServiceType + accessedNodeType,0.4876754440626575,0.8270561784110674
+2,sourceLocation + operation,0.47566419924817616,0.8497613220350143
+3,sourceAddress + accessedNodeAddress + operation,0.4603223627371914,0.852447306432819
+3,sourceAddress + destinationServiceAddress + operation,0.4603223627371914,0.852447306432819
+2,sourceAddress + accessedNodeAddress,0.45844001970984943,0.8501285486794877
+3,sourceAddress + destinationServiceAddress + accessedNodeAddress,0.45844001970984943,0.8501285486794877
+2,sourceAddress + destinationServiceAddress,0.45843336527817585,0.8501202958364911
+3,destinationServiceType + accessedNodeType + operation,0.438915971324097,0.8697812979214982
+2,destinationServiceType + operation,0.43538160458056974,0.8384654325615969
+2,sourceAddress + operation,0.3904074642697394,0.8390309355278296
+2,accessedNodeType + operation,0.3800121277352711,0.7815992896528875

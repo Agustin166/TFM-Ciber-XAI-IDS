@@ -1,0 +1,36 @@
+r,features,f1_macro,auc
+2,service + flag,0.9603148548647866,0.9820840693314251
+3,service + flag + diff_srv_rate,0.957019425687412,0.9728392795154776
+3,service + flag + dst_host_same_srv_rate,0.9546766417061379,0.9813084311399409
+3,service + flag + same_srv_rate,0.9523159898830604,0.9730855445035234
+3,service + flag + dst_host_srv_count,0.9502626415334268,0.9823080598579919
+3,service + same_srv_rate + dst_host_same_srv_rate,0.9378848428306714,0.9634884705751581
+3,service + diff_srv_rate + dst_host_same_srv_rate,0.9370788044917961,0.9693719356448943
+3,service + diff_srv_rate + same_srv_rate,0.9369070462576318,0.9734268955250268
+2,service + same_srv_rate,0.934069114062954,0.9698975833149032
+2,service + diff_srv_rate,0.9315488829537637,0.9757421741739659
+3,service + diff_srv_rate + dst_host_srv_count,0.9260469914647013,0.9752020953355164
+3,flag + dst_host_srv_count + dst_host_same_srv_rate,0.920827362419875,0.962340145013292
+3,service + same_srv_rate + dst_host_srv_count,0.9168968870022198,0.9710314901865127
+2,service + dst_host_same_srv_rate,0.9165743261720738,0.9625221908565169
+3,service + dst_host_srv_count + dst_host_same_srv_rate,0.9088718603666937,0.9648784488789675
+2,service + dst_host_srv_count,0.90377623115913,0.9595805581256869
+3,flag + diff_srv_rate + dst_host_srv_count,0.9005992576301072,0.9536965321100294
+2,flag + dst_host_same_srv_rate,0.9005092786995494,0.918290437007947
+3,flag + diff_srv_rate + dst_host_same_srv_rate,0.9004884706194254,0.9196011965798683
+3,flag + same_srv_rate + dst_host_same_srv_rate,0.9002697532179524,0.9192000287460871
+3,flag + same_srv_rate + dst_host_srv_count,0.9000521496698486,0.9523277031721307
+3,flag + diff_srv_rate + same_srv_rate,0.8997902675456642,0.9058280019482362
+3,diff_srv_rate + dst_host_srv_count + dst_host_same_srv_rate,0.8987612450381718,0.95576961172972
+2,flag + dst_host_srv_count,0.8985134873449914,0.9514421082510716
+2,flag + diff_srv_rate,0.8984746607844022,0.9049007891724251
+3,same_srv_rate + dst_host_srv_count + dst_host_same_srv_rate,0.897664083383582,0.9534361516790307
+2,flag + same_srv_rate,0.8965815409545591,0.9036439646630796
+2,same_srv_rate + dst_host_srv_count,0.8803312599172184,0.9454213614585987
+2,diff_srv_rate + dst_host_srv_count,0.8799897406648164,0.9467867590806176
+3,diff_srv_rate + same_srv_rate + dst_host_srv_count,0.8788506271886665,0.9454713489442387
+2,diff_srv_rate + dst_host_same_srv_rate,0.8786449694395857,0.9121233732075616
+2,same_srv_rate + dst_host_same_srv_rate,0.8771307372772507,0.9108615987985074
+3,diff_srv_rate + same_srv_rate + dst_host_same_srv_rate,0.8762042485403185,0.9121703198797441
+2,diff_srv_rate + same_srv_rate,0.8719520243614826,0.8778676574438146
+2,dst_host_srv_count + dst_host_same_srv_rate,0.8714872794836251,0.9302431102631574
